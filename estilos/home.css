@@ -1,0 +1,10 @@
+
+
+
+.valores{
+    display: flex;
+}
+
+div#valor1{
+    width: 40px;
+}

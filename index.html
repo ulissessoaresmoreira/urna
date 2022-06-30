@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/estilos/index.css">
+    <title>Urna Eletrônica</title>
+</head>
+<body>
+    
+        <main>
+            <section id="urna">
+                <div class="container">
+                    <span class="tipo"> Presidente</span>
+                    <form action="">
+                        
+                    </form>
+                    <div class="campo1"><input style="width:35px; height:35px; background:#cccccc; text-align: center;" size="1" id="campo1" value="" maxlength="1" type="text" readonly="readonly" /> </div>
+                    <div class="campo2"><input style="width:35px; height:35px; background:#cccccc; text-align: center;" size="1" id="campo2" value="" maxlength="1" type="text" readonly="readonly" /> </div>
+                </div>
+            </section>
+            <section id="teclado">
+                <div class="painel">
+                    <div class="tecladoNum">
+                        <button class="btn" id="inserir" onclick="incluir(1)">1</button>
+                        <button class="btn" id="inserir" onclick="incluir(2)">2</button>
+                        <button class="btn" id="inserir" onclick="incluir(3)">3</button>
+                        <button class="btn" id="inserir" onclick="incluir(4)">4</button>
+                        <button class="btn" id="inserir" onclick="incluir(5)">5</button>
+                        <button class="btn" id="inserir" onclick="incluir(6)">6</button>
+                        <button class="btn" id="inserir" onclick="incluir(7)">7</button>
+                        <button class="btn" id="inserir" onclick="incluir(8)">8</button>
+                        <button class="btn" id="inserir" onclick="incluir(9)">9</button>
+                        <button class="btn" id="inserir" onclick="incluir(0)">0</button>
+                    </div>
+                </div>
+                <div class="painelOpt">
+                    <div class="tecladoOpt">
+                        <button class="btnO">Branco</button>
+                        <button class="btnO">Corrige</button>
+                        <button class="btnO">Confirma</button>
+                    </div>
+                </div>
+            </section>
+        </main>
+    
+
+    <script src="script.js"></script>
+</body>
+</html>
